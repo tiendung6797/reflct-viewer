@@ -1,1 +1,3 @@
-# reflct-viewer
+# Reflect-viewer
+
+# How to work?
