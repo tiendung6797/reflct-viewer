@@ -1725,21 +1725,21 @@
     suspend-react "^0.1.3"
     zustand "^3.7.1"
 
-"@reflct/api@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@reflct/api/-/api-2.0.0.tgz#2d8de04559148bfec0d4f348c3b21c755a97aa9a"
-  integrity sha512-zkSOzKcUCy05ZMZzlJhYgsK5Octci43uTyCd+njZ5ySPEJbGotZ0sXc3eOykMaBPk0XB9IXtgQVTSYZx5II2bA==
+"@reflct/api@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@reflct/api/-/api-2.0.3.tgz#2db48eeaefee6c93aeb6ad040ff6ec79de9d5fa1"
+  integrity sha512-CFfuDmQX6HQqdiUeZHZLs/P4iC8CxkaT0SzQ6H8yPXD+aWhYnmWSTK97NQRm/S9yzsoD4ABTRwF/4UzNH3/2mA==
   dependencies:
     zod "^3.22.0"
 
-"@reflct/react@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@reflct/react/-/react-2.0.2.tgz#d3837e9b7e7154e924ecf2a1637882903495e974"
-  integrity sha512-nV6qNsldiu+VV6msJkYKWU7i+XYrhLVwv2K+VB4cI9shlvG2ddiqkbvfveaYEyVD+qgzsd6QNsHEUWPedBNMlA==
+"@reflct/react@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@reflct/react/-/react-2.0.6.tgz#50d39bcd7178c887f642c46415c0cdc556d9898a"
+  integrity sha512-HK7l37pOapgHzOOEMPHLrbcWrFFb3WhY9sJrVdt7bxhqM+dnGIJnAYi5K3PVHYEPn2vb96mATTCFZ0NuQeyBsw==
   dependencies:
-    "@reflct/api" "^2.0.0"
+    "@reflct/api" "^2.0.3"
     gsap "^3.13.0"
-    playcanvas "^2.10.5"
+    playcanvas "^2.11.8"
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -2305,10 +2305,15 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
-"@types/webxr@*", "@types/webxr@^0.5.2", "@types/webxr@^0.5.22":
+"@types/webxr@*", "@types/webxr@^0.5.2":
   version "0.5.22"
   resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.22.tgz#d8a14c12bbfaaa4a13de21ec2d4a8197b3e1b532"
   integrity sha512-Vr6Stjv5jPRqH690f5I5GLjVk8GSsoQSYJ2FVd/3jJF7KaqfwPi3ehfBS96mlQ2kPCwZaX6U0rG2+NGHBKkA/A==
+
+"@types/webxr@^0.5.24":
+  version "0.5.24"
+  resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.24.tgz#734d5d90dadc5809a53e422726c60337fa2f4a44"
+  integrity sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==
 
 "@types/ws@^8.5.5":
   version "8.18.1"
@@ -2565,10 +2570,15 @@
     "@webassemblyjs/ast" "1.14.1"
     "@xtuc/long" "4.2.2"
 
-"@webgpu/types@*", "@webgpu/types@^0.1.60":
+"@webgpu/types@*":
   version "0.1.64"
   resolved "https://registry.yarnpkg.com/@webgpu/types/-/types-0.1.64.tgz#62c5f9d345d4d270fcf3ecbb111c3b98dcc1aca3"
   integrity sha512-84kRIAGV46LJTlJZWxShiOrNL30A+9KokD7RB3dRCIqODFjodS5tCD5yyiZ8kIReGVZSDfA3XkkwyyOIF6K62A==
+
+"@webgpu/types@^0.1.65":
+  version "0.1.65"
+  resolved "https://registry.yarnpkg.com/@webgpu/types/-/types-0.1.65.tgz#11386daeb33a8825df2b664d3e9fcea4e9523ec2"
+  integrity sha512-cYrHab4d6wuVvDW5tdsfI6/o6vcLMDe6w2Citd1oS51Xxu2ycLCnVo4fqwujfKWijrZMInTJIKcXxteoy21nVA==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -7452,13 +7462,13 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-playcanvas@^2.10.5:
-  version "2.10.6"
-  resolved "https://registry.yarnpkg.com/playcanvas/-/playcanvas-2.10.6.tgz#df22a715fcb796b3f377dc591aa339e1f4ff4d13"
-  integrity sha512-u/mHmG0Vk6Nr7qmMNCiAs1N2uQM/xjRHZ2fDcGJTpSCDU1dN3p1Nb3eGriQmJmJbpH1Y7D560JSWRnqavqUm7w==
+playcanvas@^2.11.8:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/playcanvas/-/playcanvas-2.12.0.tgz#39d75280003438a263226b2bc0348974a1b1a445"
+  integrity sha512-nPW6T6F8Zb9mWqJxTtxr8MkeS58pFRPNaIkBwWqx0LmJro12aqVjUgY3Z3s1dDfMu8x1T8CyST9aGeZgqV5boA==
   dependencies:
-    "@types/webxr" "^0.5.22"
-    "@webgpu/types" "^0.1.60"
+    "@types/webxr" "^0.5.24"
+    "@webgpu/types" "^0.1.65"
   optionalDependencies:
     canvas "3.1.0"
 

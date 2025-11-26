@@ -5,7 +5,7 @@
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
-    "@reflct/react": "^2.0.2",
+    "@reflct/react": "^2.0.6",
     "@shopify/storefront-api-client": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
